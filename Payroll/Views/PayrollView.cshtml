@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewData["Title"] = "DisplayView";
+}
+
+<h2>DisplayView</h2>
+
+<form>
+    <p> id number: <input type="text" class="form-control" required style="width:20%" />  </p>
+    <p>
+        department: <br />
+        <select class="form-control" style="width:10%">
+            <option value="finance"> Finance </option>
+            <option value="accounting"> Accounting </option>
+            <option value="janitorial"> JANitorial </option>
+            <option value="managerial"> Managerial </option>
+        </select>
+    </p>
+    <p> number of days:  <input type="number" min="1" max="16" required class="form-control" style="width:8%" /> </p>
+    <p> rate per day:  <input type="number" min="1" required class="form-control" style="width:8%" /> <br /> </p>
+
+    <button type="submit" class="btn btn-info"> Calculate </button> <button type="reset" class="btn btn-danger"> Cancel </button>
+</form>
+
+<br />
+<h3> Deductions: </h3>
+<p>
+    SSS - 125/month <br />
+    Philhealth - 125/month <br />
+    Pag-Ibig - 125/month
+</p>

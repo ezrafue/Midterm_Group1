@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewData["Title"] = "LeaveFormView";
+}
+
+<h2>LeaveFormView</h2>
+
+<form>
+    <p> id: <input type="text" class="form-control" style="width:20%" required /> </p>
+    <p>
+        department: <br />
+        <select class="form-control" style="width:11%">
+            <option value="finance"> Finance </option>
+            <option value="accounting"> Accounting </option>
+            <option value="janitorial"> JANitorial </option>
+            <option value="managerial"> Managerial </option>
+        </select>
+    </p>
+    <p> number of leave days:  <input type="number" min="1" max="16" required class="form-control" style="width:8%" /> </p>
+    <p>
+        reason for leave: <br />
+
+        <select class="form-control" style="width:18%">
+            <option value="vacation"> Vacation </option>
+            <option value="maternity"> Maternity/Paternity </option>
+            <option value="medical"> Medical </option>
+            <option value="religion"> Religious Observance </option>
+        </select> <br />
+
+        other: <input type="text" class="form-control" style="width:50%" />
+    </p>
+
+    <button type="submit" class="btn btn-info"> Submit </button> <button type="reset" class="btn btn-danger"> Cancel </button>
+</form>
