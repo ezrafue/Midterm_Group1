@@ -7,9 +7,9 @@ namespace Payroll.Models
 {
     public class LeaveModel
     {
-        public int id { get; set; }
+        public string id { get; set; }
         public string department { get; set; }
-        public int leavedays { get; set; }
+        public string leavedays { get; set; }
         public string reason { get; set; }
         public string other { get; set; }
 
