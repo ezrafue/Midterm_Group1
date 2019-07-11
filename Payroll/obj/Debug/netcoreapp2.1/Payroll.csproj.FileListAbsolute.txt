@@ -33,3 +33,5 @@ C:\Users\User\Documents\School\3202\Payroll\obj\Debug\netcoreapp2.1\Payroll.cspr
 C:\Users\User\Documents\School\3202\Payroll\obj\Debug\netcoreapp2.1\Razor\Views\LeaveFormView.g.cshtml.cs
 C:\Users\User\Documents\School\3202\Payroll\obj\Debug\netcoreapp2.1\Razor\Views\View.g.cshtml.cs
 C:\Users\User\Documents\School\3202\Payroll\obj\Debug\netcoreapp2.1\Razor\Views\PayrollView.g.cshtml.cs
+C:\Users\student\Desktop\Grp1\Payroll\obj\Debug\netcoreapp2.1\Payroll.dll
+C:\Users\student\Desktop\Grp1\Payroll\obj\Debug\netcoreapp2.1\Payroll.pdb

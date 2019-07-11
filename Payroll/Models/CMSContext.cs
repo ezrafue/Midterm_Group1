@@ -10,6 +10,7 @@ namespace Payroll.Models
     public class CMSContext : DbContext
     {
         public DbSet<LeaveModel> Leave { get; set; }
+        public DbSet<PayrollModel> Payroll { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
