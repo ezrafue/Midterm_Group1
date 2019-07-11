@@ -1,23 +1,20 @@
 ﻿<Properties StartupConfiguration="{8560C4C8-CB4C-476F-896D-41A67DC5983D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/LeaveController.cs">
-    <Files>
-      <File FileName="Controllers/LeaveController.cs" Line="40" Column="38" />
-      <File FileName="Views/LeaveFormView.cshtml" Line="30" Column="49" />
-      <File FileName="Models/LeaveModel.cs" Line="12" Column="22" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Payroll" expanded="True">
             <Node name="Payroll" expanded="True">
-              <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
-              </Node>
+              <Node name="Dependencies" expanded="True" />
               <Node name="Controllers" expanded="True">
-                <Node name="LeaveController.cs" selected="True" />
+                <Node name="PayrollController.cs" selected="True" />
               </Node>
               <Node name="Models" expanded="True" />
-              <Node name="Views" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Leave" expanded="True" />
+                <Node name="Payroll" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>

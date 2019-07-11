@@ -5,6 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using Payroll.Models;
+using System.Data;
+using System.Data.SqlClient;
+using System.Configuration;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -12,49 +15,15 @@ namespace Payroll.Controllers
 {
     public class PayrollController : Controller
     {
-        //public PayrollModel objPayroll;
+        public PayrollModel objPayroll;
+
         // GET: /<controller>/
-        public ActionResult Index()
+        public ActionResult Home()
         {
+            this.objPayroll = new PayrollModel();
             return View();
+
         }
 
-        //public ActionResult Details(int id)
-        //{
-        //    return View();
-        //}
-
-        //public ActionResult Create()
-        //{
-        //    return View();
-        //}
-
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-
-        //public ActionResult Create(IFormCollection collection)
-        //{
-        //    try
-        //    {
-        //        this.objLeave = new LeaveModel();
-
-        //        this.objLeave.id = collection["id"].ToString();
-
-        //        this.objLeave.department = collection["department"].ToString();
-
-        //        this.objLeave.leavedays = collection["leavedays"].ToString();
-
-        //        this.objLeave.reason = collection["reason"].ToString();
-
-        //        this.objLeave.other = collection["other"].ToString();
-
-        //        return RedirectToAction();
-
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        return View();
-        //    }
-        //}
     }
 }

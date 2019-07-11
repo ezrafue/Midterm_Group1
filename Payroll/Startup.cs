@@ -56,7 +56,7 @@ namespace Payroll
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Payroll}/{action=Index}/{id?}");
+                    template: "{controller=Payroll}/{action=Home}/{id?}");
             });
         }
     }
