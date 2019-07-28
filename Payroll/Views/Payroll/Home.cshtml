@@ -30,16 +30,20 @@
         </tr>
     </thead>
     <tfoot>
+        @foreach (DataRow row in Model.Tables[0].Rows)
+        {
             <tr>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
-                <th></th>
+                <th>@row["id"]</th>
+                <th>@row["name"]</th>
+                <th>@row["position"]</th>
+                <th>@row["department"]</th>
+                <th>@row["sss"]</th>
+                <th>@row["philhealth"]</th>
+                <th>@row["numdays"]</th>
+                <th>@row["rateday"]</th>
+                <th>@row["other"]</th>
             </tr>
+         }
+
     </tfoot>
 </table>
